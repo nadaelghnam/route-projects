@@ -1,0 +1,43 @@
+@media screen and (min-width:768px) {
+    .navbar::after {
+        display: none;
+    }
+
+    .nav-btns span {
+        display: none;
+    }
+
+    .navbar .nav-btns {
+        flex-wrap: nowrap;
+        padding: 0%;
+
+    }
+
+    .nav-btns .nav-btn {
+        margin: 0;
+        width: auto;
+    }
+
+    .nav-btns img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .details{
+        height: 760px;
+    }
+    
+    .recipe-img img {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 760px;
+        background-color: aqua;
+    }
+    .details {
+    border-bottom-left-radius:  0px;
+    border-top-right-radius:  20px;
+    border-bottom-right-radius:  20px;
+}
+}

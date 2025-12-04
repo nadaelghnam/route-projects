@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./Css/media.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>What's For Dinner</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+
+<body>
+    <!-- START OF NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-white">
+        <div class="container">
+            <div class=" d-flex justify-content-center align-items-center">
+                <div class="nav-icon d-flex align-items-center justify-content-center bg-primary">
+                    <i class="fa-solid fa-utensils text-white fs-5"></i>
+                </div>
+                <div>
+                    <a class="navbar-brand fs-4" href="#">What's For Dinner</a>
+                    <p class="nav-p">Your daily meal inspiration</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-bars fw-bold fs-3"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ms-auto">
+                    <div class="nav-btns d-flex">
+                        <button class="nav-btn"><i class="fa-solid fa-bookmark"></i>
+                            <span>Saved Recipes</span>
+                        </button>
+                        <button class="nav-btn"><i class="fa-solid fa-clock-rotate-left"></i>
+                            <span>Recent</span>
+                        </button>
+                        <button class="nav-btn">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Settings</span>
+                        </button>
+                        <button class="nav-btn"><img src="./images/avatar.jpg" class="img-fluid rounded-circle" alt="">
+                            <span>Porfile</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <main>
+        <section class="recipe">
+            <div class="container py-4" id="meals">
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

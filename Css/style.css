@@ -1,0 +1,364 @@
+/* START OF NAVBAR */
+.navbar {
+    border-bottom: .125rem solid #E7E2D6;
+    padding: .8rem 3rem;
+    background-color: rgb(255 255 255);
+    position: relative;
+}
+
+.nav-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: .75rem;
+    background: linear-gradient(135deg, #FF5E00 0%, #FD3F2A 100%);
+    box-shadow: 2px 2px 5px #dddcdc;
+}
+
+.navbar-brand {
+    color: black;
+    margin-right: 3rem;
+    font-weight: 700;
+    font-size: 23px;
+    padding: 0;
+
+}
+
+.navbar::after {
+    content: "";
+    background-color: #FFEDD4;
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    top: 80px;
+}
+
+.nav-p {
+    font-size: 13px;
+    margin: 0;
+    color: #6A7282;
+}
+
+.nav-btns .nav-btn {
+    color: #4A5565;
+    transition: all .3s ease;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-btns i {
+    font-size: 20px;
+    margin-right: .5rem;
+
+}
+
+.navbar .nav-btns {
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.navbar .nav-btn {
+    width: 100%;
+    text-align: left;
+}
+
+.nav-btns .nav-btn:hover {
+    color: #F54A00;
+}
+
+.nav-btns img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #FFB86A;
+    margin-right: .5rem;
+}
+
+.navbar-toggler {
+    --bs-navbar-toggler-border-color: transparent;
+    --bs-navbar-toggler-font-size: .75rem;
+    --bs-navbar-toggler-font-size: 1rem;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+/* END OF NAVBAR */
+
+
+/* START OF RECIPE SECTION */
+
+.recipe {
+    background-color: #FFF8EC;
+}
+
+.card-border {
+    border: 1px solid #FFEDD4;
+    border-radius: 20px;
+}
+
+.recipe-img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-span {
+    background-color: white;
+    padding: 8px 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.txt-gray {
+    color: #6A7282;
+    font-size: 14px;
+}
+
+.fa-clock {
+    color: #FF6900;
+}
+
+.fa-fire-burner {
+    color: #FB2C36;
+}
+
+.fa-users {
+    color: #2B7FFF;
+}
+
+.img-bottom-span {
+    background-color: #FBF7F4;
+    padding: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.details {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.green-span {
+    color: green;
+    background-color: rgb(227, 250, 227);
+    padding: 4px 12px;
+    margin-right: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blue-span {
+    color: blue;
+    background-color: rgb(225, 245, 252);
+    padding: 4px 12px;
+    margin-right: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.details-heading-right i {
+    background-color: #ffe9d2;
+    color: #F54A00;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+
+.details-heading-right i:hover {
+    background-color: #ffdab3;
+}
+
+
+.nav {
+    --bs-link-hover-color: #3a3a3a;
+    position: relative;
+}
+
+.nav::after {
+    content: "";
+    background-color: #cbcccc;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+}
+
+.nav-link {
+    --bs-nav-link-color: #6A7282;
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 1px;
+    height: 2px;
+    background-color: #F54A00;
+}
+
+.nav-link.active:after {
+    width: 90%;
+}
+
+.nav-pills .nav-link.active {
+    --bs-nav-pills-link-active-bg: transparent;
+    --bs-nav-pills-link-active-color: #F54A00;
+}
+
+.ingredient-design {
+    background-color: #fff1f3;
+    height: 350px;
+    overflow: auto;
+}
+
+.instruction-design,
+.tips-design,
+.nutrition-design {
+    background-color: white;
+    height: 350px;
+}
+
+.tab-content::after {
+    content: "";
+    background-color: #cbcccc;
+    height: 1px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.ingredient .num {
+    background-color: #F54A00;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.tab-pane span {
+    color: #535353;
+}
+
+.recipe .btn {
+    background: linear-gradient(90deg, rgba(255, 102, 0, 1) 0%, rgba(251, 47, 53, 1) 100%);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-top: 32px;
+    box-shadow: 3px 3px 10px lightgray;
+    transition: transform .3s ease;
+}
+
+.recipe .btn:hover {
+    transform: scale(1.05);
+    font-weight: 600;
+    background-color: #dd202a;
+
+}
+
+.nutrition {
+    background-color: #F9FAFB;
+}
+
+.nutrition-left i {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.nutrition-left .fa-fire {
+    background-color: #FFEDD4;
+    color: #F54A00;
+}
+
+.nutrition-left .fa-dumbbell {
+    background-color: #DBEAFE;
+    color: #155DFC;
+}
+
+.nutrition-left .fa-wheat-awn {
+    background-color: #FEF9C2;
+    color: #D08700;
+}
+
+.nutrition-left .fa-droplet {
+    background-color: #FFE2E2;
+    color: #E7000B;
+}
+
+.nutrition-left .fa-seedling {
+    background-color: #DBFCE7;
+    color: #00A63E;
+}
+
+.nutrition-left .fa-cube {
+    background-color: #FCE7F3;
+    color: #E60076;
+}
+
+.instruction .num {
+    background-color: #ff6928;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tips {
+    background-color: #fff6f7;
+    border-radius: 12px;
+    border-left: 4px solid #ff8827;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.tips i {
+    color: #d4711f;
+    font-size: 20px;
+}
+.recipe .overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: #fe886a4d transparent;
+}
+.warning{
+    background-color: #FEF2F2;
+    color: #FB2C36;
+    border-radius: 10px;
+    border-left: 4px solid #FB2C36;
+}
+.warning p{
+    color: #A3101A;
+    font-weight: 500;
+}
+.warning span{
+    font-size: small;
+}
+/* END OF RECIPE SECTION */
